@@ -27,3 +27,10 @@ namespace Connected
                 }
             }
             Console.ReadLine();
+        }
+        private static string GetConnectionString()
+        {
+            return "data source = LAPTOP-N82BF3PN;database=ProdiTI;MultipleActiveResultSets=True;User ID=sa;Password =erda123";
+        }
+    }
+}
